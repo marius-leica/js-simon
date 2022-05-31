@@ -10,13 +10,13 @@ function randomNumbers() {
 let fiveRandomNumbers = randomNumbers();
 console.log(fiveRandomNumbers);
 
-//- Avviare un timer di 30 secondi
-//- Dopo 30 secondi, nascondere i numeri.
-// setTimeout(timer, 3000);
+// - Avviare un timer di 30 secondi
+// - Dopo 30 secondi, nascondere i numeri.
+setTimeout(timer, 3000);
 
-// function timer() {
-//   htmlNumbers.classList.add("d-none");
-// }
+function timer() {
+  htmlNumbers.classList.add("d-none");
+}
 
 //- L’utente deve inserire, uno alla volta, i numeri che ha visto precedentemente, tramite un prompt().
 
