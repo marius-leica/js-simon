@@ -20,13 +20,13 @@ function timer() {
 
 //- L’utente deve inserire, uno alla volta, i numeri che ha visto precedentemente, tramite un prompt().
 
-function insertNumber() {
-  let userNumbers = [];
+// function insertNumber() {
+//   let userNumbers = [];
 
-  for (let i = 0; i < 5; i++) {
-    let userNumber = parseInt(prompt("Inserisci un numero"));
-    userNumbers.push(userNumber);
-    console.log(userNumbers);
-  }
-}
-let userRandomNumbers = insertNumber();
+//   for (let i = 0; i < 5; i++) {
+//     let userNumber = parseInt(prompt("Inserisci un numero"));
+//     userNumbers.push(userNumber);
+//     console.log(userNumbers);
+//   }
+// }
+// let userRandomNumbers = insertNumber();
