@@ -12,21 +12,20 @@ function randomNumbers() {
 
 //- Avviare un timer di 30 secondi
 //- Dopo 30 secondi, nascondere i numeri.
-setTimeout(timer, 3000);
+// setTimeout(timer, 3000);
 
-function timer() {
-  htmlNumbers.classList.add("d-none");
-  insertNumber();
-}
+// function timer() {
+//   htmlNumbers.classList.add("d-none");
+// }
 
 //- L’utente deve inserire, uno alla volta, i numeri che ha visto precedentemente, tramite un prompt().
 
-function insertNumber() {
-  let userNumbers = [];
+// function insertNumber() {
+//   let userNumbers = [];
 
-  for (let i = 0; i < 5; i++) {
-    let userNumber = parseInt(prompt("Inserisci un numero"));
-    userNumbers.push(userNumber);
-    console.log(userNumbers);
-  }
-}
+//   for (let i = 0; i < 5; i++) {
+//     let userNumber = parseInt(prompt("Inserisci un numero"));
+//     userNumbers.push(userNumber);
+//     console.log(userNumbers);
+//   }
+// }
