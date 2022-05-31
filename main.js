@@ -6,9 +6,9 @@ function randomNumbers() {
     let randomNumber = Math.floor(Math.random() * 100 + 1);
     htmlNumbers.innerHTML += `<li>${randomNumber}</li>`;
   }
-  let fiveRandomNumbers = randomNumbers();
-  console.log(fiveRandomNumbers);
 }
+let fiveRandomNumbers = randomNumbers();
+console.log(fiveRandomNumbers);
 
 //- Avviare un timer di 30 secondi
 //- Dopo 30 secondi, nascondere i numeri.
