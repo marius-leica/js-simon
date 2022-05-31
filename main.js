@@ -20,12 +20,14 @@ function timer() {
 
 //- L’utente deve inserire, uno alla volta, i numeri che ha visto precedentemente, tramite un prompt().
 
-// function insertNumber() {
-//   let userNumbers = [];
+setTimeout(promptUser, 3500);
 
-//   for (let i = 0; i < 5; i++) {
-//     let userNumber = parseInt(prompt("Inserisci un numero"));
-//     userNumbers.push(userNumber);
-//     console.log(userNumbers);
-//   }
-// }
+function promptUser() {
+  let userNumbers = [];
+
+  for (let i = 0; i < 5; i++) {
+    let userNumber = parseInt(prompt("Inserisci un numero"));
+    userNumbers.push(userNumber);
+    console.log(userNumbers);
+  }
+}
